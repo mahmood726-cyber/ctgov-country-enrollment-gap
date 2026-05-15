@@ -1,0 +1,96 @@
+{
+  "title": "CT.gov Country Enrollment Gap",
+  "slug": "ctgov-country-enrollment-gap",
+  "author": "Mahmood Ahmad",
+  "date": "2026-03-29",
+  "body": "Which country-linked CT.gov portfolios most often leave older study pages without actual enrollment, obscuring realized sample size after study closure? We analysed 249,507 eligible older closed interventional studies from the March 29, 2026 full-registry snapshot and exploded country links. We defined an enrollment gap as missing actual enrollment among older closed studies, then ranked country-linked portfolios with at least 500 linked studies by stock and rate. The United States led the stock table at 4,573 studies, followed by Canada at 797, Germany at 663, and France at 559. Iran had the highest large-country enrollment-gap rate at 6.3 percent, while Israel reached 6.1 percent and Norway 5.4 percent. Country-linked enrollment gaps show where realized sample-size discipline remains weak even after studies are old enough that timing-based excuses should be less plausible. Country-linked rows are non-exclusive because multinational studies can contribute to more than one national portfolio in the registry as they appear here today for outside readers.",
+  "word_count": 156,
+  "sentence_count": 7,
+  "sentences": [
+    {
+      "role": "Question",
+      "text": "Which country-linked CT.gov portfolios most often leave older study pages without actual enrollment, obscuring realized sample size after study closure?"
+    },
+    {
+      "role": "Dataset",
+      "text": "We analysed 249,507 eligible older closed interventional studies from the March 29, 2026 full-registry snapshot and exploded country links."
+    },
+    {
+      "role": "Method",
+      "text": "We defined an enrollment gap as missing actual enrollment among older closed studies, then ranked country-linked portfolios with at least 500 linked studies by stock and rate."
+    },
+    {
+      "role": "Primary result",
+      "text": "The United States led the stock table at 4,573 studies, followed by Canada at 797, Germany at 663, and France at 559."
+    },
+    {
+      "role": "Secondary result",
+      "text": "Iran had the highest large-country enrollment-gap rate at 6.3 percent, while Israel reached 6.1 percent and Norway 5.4 percent."
+    },
+    {
+      "role": "Interpretation",
+      "text": "Country-linked enrollment gaps show where realized sample-size discipline remains weak even after studies are old enough that timing-based excuses should be less plausible."
+    },
+    {
+      "role": "Boundary",
+      "text": "Country-linked rows are non-exclusive because multinational studies can contribute to more than one national portfolio in the registry as they appear here today for outside readers."
+    }
+  ],
+  "notes": {
+    "app": "CT.gov Country Enrollment Gap dashboard",
+    "data": "249,507 eligible older closed interventional studies with actual-enrollment gap stock and rate summaries",
+    "code": "https://github.com/mahmood726-cyber/ctgov-country-enrollment-gap",
+    "doi": "",
+    "version": "1.0.0",
+    "date": "2026-03-29",
+    "validation": "FULL REGISTRY RUN"
+  },
+  "type": "methods",
+  "primary_estimand": "Enrollment-gap stock among older studies missing actual enrollment",
+  "validation": {
+    "status": "fail",
+    "checks": [
+      {
+        "name": "single paragraph",
+        "ok": true,
+        "detail": "Body must not contain blank-line paragraph breaks."
+      },
+      {
+        "name": "sentence count",
+        "ok": true,
+        "detail": "Found 7 sentences."
+      },
+      {
+        "name": "word count",
+        "ok": true,
+        "detail": "Found 156 words."
+      },
+      {
+        "name": "no headings",
+        "ok": true,
+        "detail": "No markdown headings allowed in body."
+      },
+      {
+        "name": "no links",
+        "ok": true,
+        "detail": "No links or DOI links allowed in body."
+      },
+      {
+        "name": "result sentence has interval",
+        "ok": true,
+        "detail": "Sentence 4 should include a quantitative result such as a percentage, count, or interval."
+      },
+      {
+        "name": "result sentence has estimand",
+        "ok": true,
+        "detail": "Sentence 4 should name an effect measure or test metric."
+      },
+      {
+        "name": "boundary sentence present",
+        "ok": false,
+        "detail": "Sentence 7 should express a limitation, harm, or scope boundary."
+      }
+    ]
+  },
+  "schema": "e156-v0.2"
+}
